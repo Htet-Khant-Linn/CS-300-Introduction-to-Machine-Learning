@@ -1,16 +1,19 @@
 [project]
-name = "my-project"
+name = "project-1"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 authors = [
     { name = "Htet Khant Linn", email = "htetkhantlinn123@gmail.com" }
 ]
-requires-python = ">=3.14"
-dependencies = []
+requires-python = ">=3.12"
+dependencies = [
+    "pandas>=3.0.5",
+    "scikit-learn>=1.9.0",
+]
 
 [project.scripts]
-my-project = "my_project:main"
+project-1 = "project_1:main"
 
 [build-system]
 requires = ["uv_build>=0.12.7,<0.13.0"]
